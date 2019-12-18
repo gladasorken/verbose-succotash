@@ -27,14 +27,6 @@ async function loadExampleList() {
 } */
 
 //original function
-/* function renderExampleList(highScores) {
-  let list = $("<ul/>")
-  for (let person of highScores) {
-    list.append(`<li>${person.name}: ${person.score}</li>`)
-  }
-  $("main").html(list)
-  console.log(renderExampleList(highScores))
-} */
 
 // Lyssna på knapp-klick för att skapa en ny person
 $("body").on("click", "button", createScore)
